@@ -1,6 +1,11 @@
 I’ve been interested in SQL for a while, so I decided to clean and analyze a global layoffs dataset as an opportunity to grow my skills. The raw dataset contained double nulls, incorrect categorizations, duplicates, and spelling errors. This reminded me of all the disorganized datasets I had encountered during my experience with businesses of various sizes.
+
 Through those experiences, I recognized how messy datasets can create difficulties with bookkeeping, investment analysis, and forecasting. The discrepancies between the datasets made it difficult to understand the data. As a result of these experiences, I decided to experiment with SQL.
+
 The project was definitely tricky, especially while learning new functions alongside the coding process. I found dealing with duplicates and null values particularly challenging. Catching every small inconsistency — sometimes down to a single letter or value — was an adjustment.
+
 Through functions like ROW_NUMBER, CTEs, TRIM, LIKE, STR_TO_DATE, and JOINs, I identified duplicates, standardized inconsistent entries, converted date formats, and addressed missing values.
+
 Once the data was cleaned, I began to analyze it to see what the data revealed. Through the use of aggregate functions, CTEs, and window functions, I was able to reveal trends within the layoff data such as layoffs by year, country, industry, and funding stage of the companies that laid off their employees. For instance, global layoffs grew from 2022 to 2023, the US experienced the highest number of layoffs during those years, and companies that went public had the highest total layoffs by funding stage. Conditional aggregation also revealed that the US was a major contributor to layoffs in heavily affected industries, including consumer, retail, and transportation. Additionally, post-IPO companies accounted for the highest total layoffs among the different funding stages.
+
 Overall, I learned how to clean the data and what the data reveals. It was interesting to learn how to clean the data and then see the trends that emerged from the data.
